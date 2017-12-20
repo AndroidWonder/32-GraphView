@@ -1,0 +1,4 @@
+#Wed Dec 20 16:43:41 EST 2017
+base.0=C\:\\Users\\James\\AndroidStudioProjects\\32-Graphview\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
