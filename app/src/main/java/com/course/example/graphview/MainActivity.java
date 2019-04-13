@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-/*
+
         //Example 1
         GraphView graph = (GraphView) findViewById(R.id.graph);
         LineGraphSeries<DataPoint> series = new LineGraphSeries<>(new DataPoint[] {
@@ -32,10 +32,11 @@ public class MainActivity extends AppCompatActivity {
                 new DataPoint(2, 3),
                 new DataPoint(3, 2),
                 new DataPoint(4, 6),
-                new DataPoint(5, 6)
+                new DataPoint(5, 6),
+                new DataPoint(8,8)
         });
         graph.addSeries(series);
-*/
+
 /*
         //Example 2
         GraphView graph = (GraphView) findViewById(R.id.graph);
@@ -44,7 +45,9 @@ public class MainActivity extends AppCompatActivity {
                 new DataPoint(1, 5),
                 new DataPoint(2, 3),
                 new DataPoint(3, 2),
-                new DataPoint(4, 6)
+                new DataPoint(4, 6),
+                new DataPoint(5, -2),
+                new DataPoint(6, 4)
         });
         graph.addSeries(series);
 
@@ -62,8 +65,9 @@ public class MainActivity extends AppCompatActivity {
         series.setDrawValuesOnTop(true);
         series.setValuesOnTopColor(Color.RED);
 //series.setValuesOnTopSize(50);
-*/
 
+*/
+/*
         //Example 3
         GraphView graph = (GraphView) findViewById(R.id.graph);
         LineGraphSeries<DataPoint> series = new LineGraphSeries<>(new DataPoint[] {
@@ -71,7 +75,8 @@ public class MainActivity extends AppCompatActivity {
                 new DataPoint(1, 5),
                 new DataPoint(2, 3),
                 new DataPoint(3, 2),
-                new DataPoint(4, 6)
+                new DataPoint(4, 6),
+                new DataPoint(5, 1)
         });
         graph.addSeries(series);
 
@@ -80,7 +85,8 @@ public class MainActivity extends AppCompatActivity {
                 new DataPoint(1, 3),
                 new DataPoint(2, 6),
                 new DataPoint(3, 2),
-                new DataPoint(4, 5)
+                new DataPoint(4, 5),
+                new DataPoint(5, 4)
         });
         graph.addSeries(series2);
 
@@ -99,11 +105,11 @@ public class MainActivity extends AppCompatActivity {
 
         GridLabelRenderer gridLabel = graph.getGridLabelRenderer();
         gridLabel.setHorizontalAxisTitle("Hours");
-        gridLabel.setVerticalAxisTitle("PH Level");
+        gridLabel.setVerticalAxisTitle("Hundreds");
 
         graph.getLegendRenderer().setVisible(true);
         graph.getLegendRenderer().setAlign(LegendRenderer.LegendAlign.TOP);
-
+*/
     }
 }
 
