@@ -2,7 +2,7 @@ package com.course.example.graphview;
 /*
 This example uses the android-graphview graphing utility.
 To make its libraries available include
-    compile 'com.jjoe64:graphview:4.2.1'
+    implementation files('libs/GraphView-4.2.1.jar')
     in the Gradle dependencies.
  */
 import android.graphics.Color;
