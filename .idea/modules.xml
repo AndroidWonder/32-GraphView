@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/32-Graphview.iml" filepath="$PROJECT_DIR$/32-Graphview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/32-Graphview.iml" filepath="$PROJECT_DIR$/32-Graphview.iml" group="32-Graphview" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="32-Graphview/app" />
     </modules>
   </component>
 </project>
